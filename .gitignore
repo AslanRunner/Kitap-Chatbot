@@ -23,8 +23,7 @@ eggs/
 .eggs/
 lib/
 lib64/
-parts/
-sdist/
+parts/sdist/
 var/
 wheels/
 *.egg-info/
@@ -56,3 +55,14 @@ logs/
 *.tmp
 temp/
 tmp/
+
+# =======================================================
+# RAG ÇÖZÜMÜ İÇİN EK KURAL (Veritabanını DAHİL ETME)
+# 'chroma_db' klasörü, aksi takdirde dışlanacak olsa bile,
+# Streamlit deploy'u için Git deposuna dahil edilir.
+# ! işareti, hariç tutulan bir kuralı geçersiz kılar.
+# =======================================================
+
+!chroma_db/
+
+
