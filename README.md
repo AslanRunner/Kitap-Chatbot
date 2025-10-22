@@ -1,4 +1,4 @@
-# 📚 Türkçe Kitap Tavsiye Chatbot'u
+# 📚 Kitap Kurdu
 
 Yapay zeka destekli kişiselleştirilmiş kitap danışmanı uygulaması, kullanıcılara akıllı kitap tavsiyeleri sunmak için tasarlanmıştır.
 
@@ -102,9 +102,8 @@ Tarayıcın otomatik açılacak: `http://localhost:8501`
    - Chatbot kitap adı, yazar ve neden önerdiğini gösterecek
    - Benzer kitaplar hakkında sorular sorabilirsin
 
-4. **Sohbeti Devam Ettir:**
-   - Geçmiş konuşmaları hatırlıyor
-   - Daha detaylı tavsiyeleri kişiselleştiriyor
+4. **Sohbeti Başa Al:**
+   - İstediğin an çöp kutusuna bas ve tekrar sohbet et
 
 ## 📁 Proje Yapısı
 
