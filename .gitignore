@@ -56,13 +56,12 @@ logs/
 temp/
 tmp/
 
-# =======================================================
-# RAG ÇÖZÜMÜ İÇİN EK KURAL (Veritabanını DAHİL ETME)
-# 'chroma_db' klasörü, aksi takdirde dışlanacak olsa bile,
-# Streamlit deploy'u için Git deposuna dahil edilir.
-# ! işareti, hariç tutulan bir kuralı geçersiz kılar.
-# =======================================================
+# ... (Üstteki diğer kurallar kalsın)
 
-!chroma_db/
+# =======================================================
+# RAG ÇÖZÜMÜ İÇİN EK KURAL: Büyük veritabanı dosyaları (GitHub limitini aşar)
+# Yerel olarak oluşturulan chroma_db klasörünü Git'e ASLA ekleme.
+# =======================================================
+chroma_db/
 
 
