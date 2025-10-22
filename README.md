@@ -116,7 +116,6 @@ turkce-kitap-chatbot/
 ├── .gitignore                     # Git ignore dosyası
 ├── chatbot_app.py                 # Streamlit uygulaması (Ana dosya)
 ├── database.py                    # Vector DB oluşturucu
-├── kitaplar_temiz.csv            # Kitap verisi (60,000+)
 └── chroma_db/                     # Vector database (otomatik oluşturulur)
 ```
 
@@ -129,51 +128,12 @@ MODEL_NAME = "gemini-2.0-flash"    # LLM modeli
 DB_PATH = "./chroma_db"            # Database yolu
 ```
 
-### `database.py` içinde düzenlenebilir:
-
-```python
-CSV_FILE = "kitaplar_temiz.csv"    # Kitap verisi dosyası
-```
-
-## 🐛 Sorun Giderme
-
-### "GEMINI_API_KEY bulunamadı" hatası
-
-```bash
-# .env dosyasının var olduğunu kontrol et
-# GEMINI_API_KEY=... yazılı olduğundan emin ol
-```
-
-### "Veritabanı yüklenemedi" hatası
-
-```bash
-# Eski database'i sil ve yeniden oluştur
-Remove-Item -Recurse -Force chroma_db  # Windows PowerShell
-python database.py
-```
-
-### Chatbot yavaş cevap veriyor
-
-- Google API kotasını kontrol et
-- İnternet bağlantısını kontrol et
-- Vector database dosyasının mevcut olduğundan emin ol
-
 ## 📊 Dataset Bilgisi
 
 - **Kaynak**: [YTÜ COSMOS Turkish Book Dataset](https://huggingface.co/datasets/ytu-ce-cosmos/turkce-kitap)
 - **Toplam Kitap**: 60,000+
 - **Veri Formatı**: Kitap adı, yazar, görsel
 - **Veri Kalitesi**: Manuel olarak temizlenmiş ve doğrulanmış
-
-## 🤝 Katkıda Bulun
-
-Katkılarınızı bekliyoruz! Lütfen:
-
-1. Repository'yi fork et
-2. Feature branch oluştur (`git checkout -b feature/YeniOzellik`)
-3. Değişiklikleri commit et (`git commit -m 'Add YeniOzellik'`)
-4. Branch'i push et (`git push origin feature/YeniOzellik`)
-5. Pull Request aç
 
 ## 📝 Lisans
 
@@ -185,8 +145,3 @@ MIT License - Detaylar için `LICENSE` dosyasına bak
 - Google Gemini ve Embedding modelleri için
 - LangChain, Streamlit ve Chroma kütüphaneleri için
 - Tüm Türkçe kitap severlere ilham için
-
-
----
-
-**Not**: Bu proje Claude AI asistanının yardımıyla geliştirilmiştir.
