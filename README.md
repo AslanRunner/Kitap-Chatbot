@@ -144,3 +144,9 @@ MIT License - Detaylar için `LICENSE` dosyasına bak
 - Google Gemini ve Embedding modelleri için
 - LangChain, Streamlit ve Chroma kütüphaneleri için
 - Tüm Türkçe kitap severlere ilham için
+
+## Tanıtım Videosu
+
+![Ekran Kaydı 2025-10-22 200602](https://github.com/user-attachments/assets/94623afe-cf94-4259-b8b2-d1550029e908)
+
+
