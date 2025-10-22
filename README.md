@@ -3,7 +3,7 @@
 Yapay zeka destekli kişiselleştirilmiş kitap danışmanı uygulaması, kullanıcılara akıllı kitap tavsiyeleri sunmak için tasarlanmıştır.
 
 ## 🌐 Deploy Link
-- 
+- https://turkce-kitap-chatbot-jqk2japsmwtqhbq4he5jpf.streamlit.app/
 
 ## ✨ Özellikler
 
