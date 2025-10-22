@@ -1,4 +1,4 @@
-# 📚 Türkçe Kitap Tavsiye Chatbot
+# 📚 Türkçe Kitap Tavsiye Chatbot'u
 
 Yapay zeka destekli kişiselleştirilmiş kitap danışmanı uygulaması, kullanıcılara akıllı kitap tavsiyeleri sunmak için tasarlanmıştır.
 
