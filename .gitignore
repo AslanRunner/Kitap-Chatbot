@@ -1,0 +1,68 @@
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+temp/
+tmp/
+
+# =======================================================
+# RAG ÇÖZÜMÜ İÇİN EK KURAL (Veritabanını DAHİL ETME)
+# 'chroma_db' klasörü, aksi takdirde dışlanacak olsa bile,
+# Streamlit deploy'u için Git deposuna dahil edilir.
+# ! işareti, hariç tutulan bir kuralı geçersiz kılar.
+# =======================================================
+
+!chroma_db/
+
+
