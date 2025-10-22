@@ -39,12 +39,6 @@ wheels/
 *~
 .DS_Store
 
-# Database
-*.db
-*.sqlite
-*.sqlite3
-chroma_db/
-
 # OS
 .DS_Store
 .DS_Store?
